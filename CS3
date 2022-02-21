@@ -56,6 +56,7 @@ public class CS3 extends EncapClass{
 		//Input the Product ID
 		System.out.println("Product Id:");
 		int Pid= sc.nextInt();
+		sc.nextLine();
 		setPid(Pid);
 		
 		//Input the Product Name
@@ -72,6 +73,7 @@ public class CS3 extends EncapClass{
 		System.out.println("Product Code:");
 		int v4= sc.nextInt();
 		setPcode(v4);
+		sc.nextLine();
 		
 		//Input the Product Address
 		System.out.println("Product Address:");
@@ -83,40 +85,7 @@ public class CS3 extends EncapClass{
 		int PaddPin= sc.nextInt();
 		setPaddPin(PaddPin);
 				
-		
-		
-//		//Input the Product ID
-//		System.out.println("Product Id:");
-//		int v1= sc.nextInt();
-//		setPid(v1);
-//		
-//		//Input the Product Name
-//		System.out.println("Product Name:");
-//		String v2 = sc.nextLine();
-//		setPname(v2);
-//		
-//		//Input the Product amount
-//		System.out.println("Product Amount:");
-//		int v3= sc.nextInt();
-//		setPamt(v3);
-//		
-//		//Input the Product Code
-//		System.out.println("Product Code:");
-//		int v4= sc.nextInt();
-//		setPcode(v4);
-//		
-//		//Input the Product Address
-//		System.out.println("Product Address:");
-//		String v5= sc.nextLine();
-//		setPadd(v5);
-//		
-//		//Input the Product Add Pin
-//		System.out.println("Product Address PinCode:");
-//		int v6= sc.nextInt();
-//		setPaddPin(v6);
-//				
-		
-		
+			
 			
 	}
 	@Override
@@ -199,7 +168,7 @@ public class CS3 extends EncapClass{
 
 
 /*
-OutPut
+
 ****Enter a choice****
 
 Press 1 for Add Product
@@ -211,15 +180,17 @@ Press 6 for Exit
 1
 Input the following Details to Add Product:
 Product Id:
-12
+1
 Product Name:
+UUUU
 Product Amount:
-98
+123
 Product Code:
-9874
+9988
 Product Address:
+uuujjjj
 Product Address PinCode:
-302017
+98745
 Added Successfully
 
 ****Enter a choice****
@@ -231,11 +202,12 @@ Press 4 for Get Product
 Press 5 for Get All Products
 Press 6 for Exit
 5
-Product id12Product Name 
-Amount 98
-Product Code 9874
-Address 
-Pincode 302017
+Product id1
+Product Name UUUU
+Amount 123
+Product Code 9988
+Address uuujjjj
+Pincode 98745
 
 
 ****Enter a choice****
